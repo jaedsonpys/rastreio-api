@@ -1,6 +1,8 @@
 import requests
 import os
 
+# Este código utiliza a API da Linketrack. #
+
 endpoint = 'https://api.linketrack.com/track/json'
 
 def get_package(code: str) -> None:
